@@ -2,39 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Kreon');
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
-.logo {
-  float: right;
-  width: 100px;
-  height: 100px;
-}
-
-.welcomeText {
-  padding-right: 3em;
-}
-
 /* Font for headings */
 h1, h2, h3  {
   font-family: 'Kreon', serif;
 }
 
-.background {
-  background-image: url("../images/background.jpg");
-  background-size: auto;
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
-
 .introBox, .briefBox {
-  display: flex;
-  padding: 5em;
-  margin-left: 90px;
-  margin-right: 90px;
+  /* display: flex; */
+  padding: 2em;
+  margin-left: 30px;
+  margin-right: 30px;
   border-radius: 50px;
   background-color: white;
   font-family: 'News Cycle', sans-serif;
 }
 
-/* Specific css properties for the intro section */
+/* This section was not moved to Intro.css since it
+needs to be below the code above */
 .introBox {
   background:rgba(255,255,255,0.5);
   margin-top: 30px;
@@ -47,21 +31,11 @@ h1, h2, h3  {
   padding-bottom: 5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 /* Desktop settings */
 @media screen and (min-width: 768px) {
   .introBox, .briefBox {
     display: flex;
+    padding: 4em;
     margin-left: 100px;
     margin-right: 100px;
     font-size: 20px;
