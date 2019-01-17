@@ -16,6 +16,16 @@ h1, h2, h3  {
   font-size: 14px;
 }
 
+.aboutpic {
+  float: right;
+}
+
+/* Moves the margin for the About Me section to provide more space */
+.about-me-margin {
+  margin-right: 300px;
+}
+
+/* Section on different backgrounds */
 .background {
   background-image: url("../images/background.jpg");
   background-size: auto;
@@ -23,6 +33,13 @@ h1, h2, h3  {
   padding-bottom: 5em;
 }
 
+.backgroundTwo {
+  background-color: #778899;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/* General layout for the parts containing text */
 .introBox, .briefBox {
   display: flex;
   padding: 2em;
@@ -39,12 +56,6 @@ needs to be below the code above */
   background:rgba(255,255,255,0.5);
   margin-top: 30px;
   justify-content: center;
-}
-
-.backgroundTwo {
-  background-color: #778899;
-  padding-top: 5em;
-  padding-bottom: 5em;
 }
 
 /* Desktop settings */
