@@ -7,8 +7,24 @@ h1, h2, h3  {
   font-family: 'Kreon', serif;
 }
 
+.logo {
+  float: right;
+  width: 50%;
+}
+
+.welcomeText {
+  font-size: 14px;
+}
+
+.background {
+  background-image: url("../images/background.jpg");
+  background-size: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 .introBox, .briefBox {
-  /* display: flex; */
+  display: flex;
   padding: 2em;
   margin-left: 30px;
   margin-right: 30px;
@@ -33,15 +49,27 @@ needs to be below the code above */
 
 /* Desktop settings */
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
+  }
   .introBox, .briefBox {
     display: flex;
-    padding: 4em;
+    padding: 5em;
     margin-left: 100px;
     margin-right: 100px;
     font-size: 20px;
   }
   .logo {
     width: 40%;
-    height: 40%;
+    float: right;
+  }
+  .welcomeText {
+    font-size: 20px;
   }
 }
