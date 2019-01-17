@@ -20,6 +20,10 @@ h1, h2, h3  {
   float: right;
 }
 
+.projectImages {
+  width: 100%
+}
+
 /* Moves the margin for the About Me section to provide more space */
 .about-me-margin {
   margin-right: 300px;
@@ -39,8 +43,14 @@ h1, h2, h3  {
   padding-bottom: 5em;
 }
 
+.backgroundThree {
+  background-color: gold;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 /* General layout for the parts containing text */
-.introBox, .briefBox {
+.introBox, .briefBox, .projects {
   display: flex;
   padding: 2em;
   margin-left: 30px;
@@ -69,7 +79,7 @@ needs to be below the code above */
   h3 {
     font-size: 30px;
   }
-  .introBox, .briefBox {
+  .introBox, .briefBox, .projects {
     display: flex;
     padding: 5em;
     margin-left: 100px;

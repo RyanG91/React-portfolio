@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import background from '../images/background.jpg';
 import logo from '../images/logo.png'
 import '../styles/Intro.css'
 
