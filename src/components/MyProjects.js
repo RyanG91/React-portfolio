@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/MyProjects.css'
 import ShoppingList from '../images/Shopping-list.png'
+import TwoSidedMarketplace from '../images/TwoSidedMarketplace.png'
+import RealWorldApp from '../images/RealWorldApp.png'
 
 class MyProjects extends Component {
     render() {
@@ -23,6 +25,16 @@ class MyProjects extends Component {
                     <div>
                         <a href="https://github.com/RyanG91/Ruby-shopping-list" rel="noopener noreferrer" target="_blank"> 
                             <img src={ShoppingList} className="projectImages" alt="Shopping List"/> 
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/RyanG91/delivery" rel="noopener noreferrer" target="_blank">
+                            <img src={TwoSidedMarketplace} className="projectImages" alt="Two Sided Marketplace" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/jgeltchrobb/Agnes" rel="noopener noreferrer" target="_blank">
+                            <img src={RealWorldApp} className="projectImages" alt="Real World Project" />
                         </a>
                     </div>
                 </div>
