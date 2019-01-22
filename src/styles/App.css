@@ -42,7 +42,7 @@ h1, h2, h3  {
   padding-bottom: 5em;
 }
 
-.backgroundTwo {
+.backgroundTwo, .backgroundFour {
   background-color: #778899;
   padding-top: 5em;
   padding-bottom: 5em;
@@ -55,7 +55,7 @@ h1, h2, h3  {
 }
 
 /* General layout for the parts containing text */
-.introBox, .briefBox, .projects {
+.introBox, .briefBox, .projects, .contactBox {
   display: flex;
   padding: 2em;
   margin-left: 30px;
@@ -84,7 +84,7 @@ needs to be below the code above */
   h3 {
     font-size: 30px;
   }
-  .introBox, .briefBox, .projects {
+  .introBox, .briefBox, .projects, .contactBox {
     display: flex;
     padding: 5em;
     margin-left: 100px;
