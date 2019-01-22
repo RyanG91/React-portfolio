@@ -37,6 +37,13 @@ class MyProjects extends Component {
                             <img src={RealWorldApp} className="projectImages" alt="Real World Project" />
                         </a>
                     </div>
+                    <div>
+                        <button>❮ Prev</button>
+                        <button>Next ❯</button>
+                    </div>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
                 </div>
 
             </div>

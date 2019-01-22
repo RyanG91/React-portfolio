@@ -21,7 +21,12 @@ h1, h2, h3  {
 }
 
 .projectImages {
-  width: 100%
+  width: 100%;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
 }
 
 /* Moves the margin for the About Me section to provide more space */
