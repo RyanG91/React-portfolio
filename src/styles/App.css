@@ -18,6 +18,7 @@ h1, h2, h3  {
 
 .aboutpic {
   float: right;
+  width: 25%
 }
 
 .projectImages {
@@ -31,7 +32,7 @@ h1, h2, h3  {
 
 /* Moves the margin for the About Me section to provide more space */
 .about-me-margin {
-  margin-right: 300px;
+  margin-right: 100px;
 }
 
 /* Section on different backgrounds */
