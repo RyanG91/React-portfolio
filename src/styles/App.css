@@ -25,11 +25,6 @@ h1, h2, h3  {
   font-family: 'Kreon', serif;
 }
 
-.aboutpic {
-  float: right;
-  width: 25%
-}
-
 .projectImages {
   width: 100%;
 }
@@ -39,14 +34,9 @@ h1, h2, h3  {
   width: 100%;
 }
 
-/* Moves the margin for the About Me section to provide more space */
-.about-me-margin {
-  margin-right: 100px;
-}
-
 /* Section on different backgrounds */
 
-.backgroundTwo, .backgroundFour {
+.backgroundFour {
   background-color: #778899;
   padding-top: 5em;
   padding-bottom: 5em;
@@ -59,7 +49,7 @@ h1, h2, h3  {
 }
 
 /* General layout for the parts containing text */
-.briefBox, .projects, .contactBox {
+.projects, .contactBox {
   display: flex;
   padding: 2em;
   margin-left: 30px;
@@ -136,7 +126,7 @@ h1, h2, h3  {
     white-space: nowrap;
   }
 
-  .briefBox, .projects, .contactBox {
+  .projects, .contactBox {
     display: flex;
     padding-top: 5em;
     padding-bottom: 5em;

@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import aboutmepic from '../images/aboutmepic.png'
 import '../styles/AboutMe.css'
+import { Background, AboutMeBox, AboutMePic, AboutMeMargin } from '../styles/AboutMeStyles'
 
 class AboutMe extends Component {
     render() {
       return (
-        <div className="backgroundTwo">
+        <Background>
           <a name="aboutme"/>
-          <div className="briefBox">
+          <AboutMeBox>
             <section>
-                <img className="aboutpic" src={aboutmepic} alt="aboutpic" />
+                <AboutMePic src={aboutmepic} alt="aboutpic" />
                 <h3>About me</h3>
-                <div className="about-me-margin">
+                <AboutMeMargin>
                     <p>I am a 27 year old web developer, previously studying at Coder-academy.</p>
                     <p>In the past I have completed a Masters of Information Technology (Library and Information Science) at Queensland University of Technology and a Bachelor of Arts (International Relations & Ancient History) at the University of Queensland.</p>
                     <p>My experience includes:</p>
@@ -32,10 +33,10 @@ class AboutMe extends Component {
                         <li>Ember</li>
                     </ul>
                     <p>I have completed a number of different projects, some shown below while others are on my GitHub profile.</p>
-                </div>
+                </AboutMeMargin>
             </section>
-          </div>
-        </div>
+          </AboutMeBox>
+        </Background>
       );
     }
 }
