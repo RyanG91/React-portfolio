@@ -42,12 +42,6 @@ h1, h2, h3  {
   padding-bottom: 5em;
 }
 
-.backgroundThree {
-  background-color: gold;
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
-
 /* General layout for the parts containing text */
 .projects, .contactBox {
   display: flex;
@@ -133,9 +127,5 @@ h1, h2, h3  {
     margin-left: 100px;
     margin-right: 100px;
     font-size: 20px;
-  }
-
-  .imageSlider {
-    padding-right: 0em;
   }
 }
