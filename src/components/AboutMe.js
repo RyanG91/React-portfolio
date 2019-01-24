@@ -6,6 +6,7 @@ class AboutMe extends Component {
     render() {
       return (
         <div className="backgroundTwo">
+          <a name="aboutme"/>
           <div className="briefBox">
             <section>
                 <img className="aboutpic" src={aboutmepic} alt="aboutpic" />

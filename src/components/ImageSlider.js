@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ShoppingList from '../images/Shopping-list.png'
 import TwoSidedMarketplace from '../images/TwoSidedMarketplace.png'
 import RealWorldApp from '../images/RealWorldApp.png'
