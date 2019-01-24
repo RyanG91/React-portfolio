@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/MyProjects.css'
 import ImageSlider from './ImageSlider'
-import ShoppingList from '../images/Shopping-list.png'
-import TwoSidedMarketplace from '../images/TwoSidedMarketplace.png'
-import RealWorldApp from '../images/RealWorldApp.png'
 
 class MyProjects extends Component {
     render() {
       return (
         <div className="backgroundThree">
+            <a name="myprojects"/>
             <div className="projects">
                 <div className="project-margin">
                     <h3>Some of the projects I've worked on:</h3>

@@ -5,6 +5,7 @@ class Contact extends Component {
     render() {
       return (
         <div class="backgroundFour">
+            <a name="contact"/>
             <div class="contactBox">
                 <section>
                     <h3>Contact me</h3>
