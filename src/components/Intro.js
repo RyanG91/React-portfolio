@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png'
-import '../styles/Intro.css'
 import { Background, IntroBox, WelcomeText, Logo } from '../styles/IntroStyles'
 
 class Intro extends Component {

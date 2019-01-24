@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
-import '../styles/MyProjects.css'
 import ImageSlider from './ImageSlider'
+import { Background, ProjectBox, ProjectImages, ProjectMargin } from '../styles/MyProjectsStyles'
 
 class MyProjects extends Component {
     render() {
       return (
-        <div className="backgroundThree">
+        <Background>
             <a name="myprojects"/>
-            <div className="projects">
-                <div className="project-margin">
+            <ProjectBox>
+                <ProjectMargin>
                     <h3>Some of the projects I've worked on:</h3>
                     <p>Some of the projects I have participated in include the following:</p>
                     <ul>
-                        <li>Shopping-list app with Ruby</li>
-                        <li>Two sided marketplace app with Rails</li>
-                        <li>A real world app using MERN</li>
+                        <li><a href="https://github.com/RyanG91/Ruby-shopping-list" rel="noopener noreferrer" target="_blank">Shopping-list app</a> with Ruby</li>
+                        <li><a href="https://github.com/RyanG91/delivery" rel="noopener noreferrer" target="_blank">Two sided marketplace app</a> with Rails</li>
+                        <li><a href="https://github.com/jgeltchrobb/Agnes" rel="noopener noreferrer" target="_blank">A real world app</a> using MERN</li>
                         <li>Portfolio webpage</li>            
                     </ul>
                     <p> There will be more added over the coming months and years. </p>
-                </div>
+                </ProjectMargin>
                 
-                <div className="imageSlider">
+                <ProjectImages>
                     <ImageSlider />
-                </div>
+                </ProjectImages>
 
-            </div>
-        </div>
+            </ProjectBox>
+        </Background>
       );
     }
 }

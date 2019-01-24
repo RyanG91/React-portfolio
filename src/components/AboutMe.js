@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import aboutmepic from '../images/aboutmepic.png'
-import '../styles/AboutMe.css'
 import { Background, AboutMeBox, AboutMePic, AboutMeMargin } from '../styles/AboutMeStyles'
 
 class AboutMe extends Component {
