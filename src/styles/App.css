@@ -20,10 +20,6 @@ nav {
   border-right: 5px solid black;
 }
 
-.NavBar {
-  padding-right: 80px;
-}
-
 /* Font for headings */
 h1, h2, h3  {
   font-family: 'Kreon', serif;
