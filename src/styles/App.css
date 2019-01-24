@@ -25,15 +25,6 @@ h1, h2, h3  {
   font-family: 'Kreon', serif;
 }
 
-.logo {
-  float: right;
-  width: 50%;
-}
-
-.welcomeText {
-  font-size: 14px;
-}
-
 .aboutpic {
   float: right;
   width: 25%
@@ -54,12 +45,6 @@ h1, h2, h3  {
 }
 
 /* Section on different backgrounds */
-.background {
-  background-image: url("../images/background.jpg");
-  background-size: auto;
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
 
 .backgroundTwo, .backgroundFour {
   background-color: #778899;
@@ -74,7 +59,7 @@ h1, h2, h3  {
 }
 
 /* General layout for the parts containing text */
-.introBox, .briefBox, .projects, .contactBox {
+.briefBox, .projects, .contactBox {
   display: flex;
   padding: 2em;
   margin-left: 30px;
@@ -82,14 +67,6 @@ h1, h2, h3  {
   border-radius: 40px;
   background-color: white;
   font-family: 'News Cycle', sans-serif;
-}
-
-/* This section was not moved to Intro.css since it
-needs to be below the code above */
-.introBox {
-  background:rgba(255,255,255,0.5);
-  margin-top: 30px;
-  justify-content: center;
 }
 
 /*  */
@@ -159,7 +136,7 @@ needs to be below the code above */
     white-space: nowrap;
   }
 
-  .introBox, .briefBox, .projects, .contactBox {
+  .briefBox, .projects, .contactBox {
     display: flex;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -170,14 +147,5 @@ needs to be below the code above */
 
   .imageSlider {
     padding-right: 0em;
-  }
-
-  .logo {
-    width: 40%;
-    float: right;
-  }
-
-  .welcomeText {
-    font-size: 20px;
   }
 }

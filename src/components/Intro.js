@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png'
 import '../styles/Intro.css'
+import { Background, IntroBox, WelcomeText, Logo } from '../styles/IntroStyles'
 
 class Intro extends Component {
     render() {
       return (
-        <div className="background">
-            <div className="introBox">
+        <Background>
+            <IntroBox>
                 <section>
-                    <img src={logo} className="logo" alt="logo" />
-                    <div className="welcomeText">
+                    <Logo src={logo} alt="logo" />
+                    <WelcomeText>
                         <h1>Hello, my name is Ryan and welcome to my website.</h1>
                         <h3>I am an aspiring web developer and you have stumbled onto my portfolio page.</h3>
-                    </div>
+                    </WelcomeText>
                 </section>
-            </div>
-        </div>
+            </IntroBox>
+        </Background>
       );
     }
 }
