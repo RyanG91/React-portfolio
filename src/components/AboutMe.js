@@ -11,7 +11,7 @@ class AboutMe extends Component {
                 <img className="aboutpic" src={aboutmepic} alt="aboutpic" />
                 <h3>About me</h3>
                 <div className="about-me-margin">
-                    <p>I am a 27 year web developer, previously studying at Coder-academy.</p>
+                    <p>I am a 27 year old web developer, previously studying at Coder-academy.</p>
                     <p>In the past I have completed a Masters of Information Technology (Library and Information Science) at Queensland University of Technology and a Bachelor of Arts (International Relations & Ancient History) at the University of Queensland.</p>
                     <p>My experience includes:</p>
                     <ol>
