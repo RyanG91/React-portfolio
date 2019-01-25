@@ -4,6 +4,10 @@ const Background = styled.div`
     background-color: #778899;
     padding-top: 5em;
     padding-bottom: 5em;
+
+    @media(min-width: 768px) {
+        background-color: green;
+    }
 `
 
 const ContactBox = styled.div`
