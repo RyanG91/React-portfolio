@@ -20,11 +20,6 @@ nav {
   border-right: 5px solid black;
 }
 
-/* Font for headings */
-h1, h2, h3  {
-  font-family: 'Kreon', serif;
-}
-
 .projectImages {
   width: 100%;
 }
@@ -79,25 +74,15 @@ h1, h2, h3  {
 .fa-arrow-right:before, .fa-arrow-left:before {
   color: #222
 }
+/* @media screen and (min-width: 768px) {
+  
+} */
 
-/* Desktop settings */
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-
-  .slider {
-    position: relative;
-    width: 750px;
-    margin: 0 auto;
-    height: 500px;
-    overflow: hidden;
-    white-space: nowrap;
-  }
+.slider {
+  position: relative;
+  width: 750px;
+  margin: 0 auto;
+  height: 500px;
+  overflow: hidden;
+  white-space: nowrap;
 }

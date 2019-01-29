@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import aboutmepic from '../images/aboutmepic.png'
 import { Background, AboutMeBox, AboutMePic, AboutMeMargin } from '../styles/AboutMeStyles'
+import { HeadingThree } from '../styles/FontAndText'
 
 class AboutMe extends Component {
     render() {
@@ -10,7 +11,7 @@ class AboutMe extends Component {
           <AboutMeBox>
             <section>
                 <AboutMePic src={aboutmepic} alt="aboutpic" />
-                <h3>About me</h3>
+                <HeadingThree>About me</HeadingThree>
                 <AboutMeMargin>
                     <p>I am a 27 year old web developer, previously studying at Coder-academy.</p>
                     <p>In the past I have completed a Masters of Information Technology (Library and Information Science) at Queensland University of Technology and a Bachelor of Arts (International Relations & Ancient History) at the University of Queensland.</p>

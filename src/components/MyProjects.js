@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ImageSlider from './ImageSlider'
 import { Background, ProjectBox, ProjectImages, ProjectMargin } from '../styles/MyProjectsStyles'
+import { HeadingThree } from '../styles/FontAndText'
 
 class MyProjects extends Component {
     render() {
@@ -9,7 +10,7 @@ class MyProjects extends Component {
             <a name="myprojects"/>
             <ProjectBox>
                 <ProjectMargin>
-                    <h3>Some of the projects I've worked on:</h3>
+                    <HeadingThree>Some of the projects I've worked on:</HeadingThree>
                     <p>Some of the projects I have participated in include the following:</p>
                     <ul>
                         <li><a href="https://github.com/RyanG91/Ruby-shopping-list" rel="noopener noreferrer" target="_blank">Shopping-list app</a> with Ruby</li>

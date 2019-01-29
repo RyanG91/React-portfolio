@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import background from '../images/background.jpg'
+// The styling for intro section is located here.
 
 const Background = styled.div`
     background-image: url(${background});
@@ -27,8 +28,12 @@ const WelcomeText = styled.div`
 `
 
 const Logo = styled.img`
-    width: 40%;
+    width: 80%
     float: right;
+
+    @media(min-width: 768px) {
+        width: 40%;
+    }
 `
 
 export { Background, IntroBox, WelcomeText, Logo }
