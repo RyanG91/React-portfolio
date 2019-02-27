@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 // The styling for the nav bar can be found here.
 
-const NavBar = styled.div`
+const NavBarStyle = styled.div`
   border: 5px solid black;
   text-align: center;
   display: grid;
@@ -14,4 +14,4 @@ const NavBar = styled.div`
   z-index: 1;
 `
 
-export { NavBar }
+export { NavBarStyle }
