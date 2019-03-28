@@ -6,8 +6,8 @@ import background from '../images/background.jpg'
 const Background = styled.div`
   background-image: url(${background});
   background-size: auto;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 `
 
 const IntroBox = styled.div`
