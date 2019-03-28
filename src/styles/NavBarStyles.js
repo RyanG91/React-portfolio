@@ -10,7 +10,7 @@ const NavBarStyle = styled.div`
   background-color: white;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 99.25%;
   z-index: 1;
 `
 

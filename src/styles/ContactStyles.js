@@ -6,8 +6,8 @@ const Background = styled.div`
   padding-bottom: 2em;
 
   @media(min-width: 768px) {
-      padding-top: 5em;
-      padding-bottom: 5em;
+      padding-top: 4em;
+      padding-bottom: 4em;
   }
 `
 

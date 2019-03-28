@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 const Background = styled.div`
   background-color: gold;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 `
 
 const ProjectBox = styled.div`

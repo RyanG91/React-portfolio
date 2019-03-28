@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background:rgba(255,255,255,0.5);
+  background:rgb(209, 153, 153);
   border-radius: 50%;
   cursor: pointer;
   transition: transform ease-in .1s;
@@ -39,7 +39,7 @@
 
 .nextArrow {
   position: absolute;
-  top: 50%;
+  top: 90%;
   right: 25px;
   z-index: 999;
   color: #fff;
@@ -47,7 +47,7 @@
 
 .backArrow {
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 25px;
   z-index: 999;
   color: #fff;
