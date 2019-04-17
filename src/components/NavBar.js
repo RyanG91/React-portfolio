@@ -25,12 +25,6 @@ class NavBar extends Component {
           <Links title="Contact Me" link="#contact" />
           <Links title="GitHub Page" link="https://github.com/RyanG91" />
           <Links title="LinkedIn Page" link="https://www.linkedin.com/in/ryan-grosser-a360a1129/" />
-          {/* <a id='tablecolumn' href="/">Home</a> */}
-          {/* <a id='tablecolumn' href="#aboutme">About Me</a> */}
-          {/* <a id='tablecolumn' href="#myprojects">Projects</a> */}
-          {/* <a id='tablecolumn' href="#contact">Contact Me</a> */}
-          {/* <a id='tablecolumn' href="https://github.com/RyanG91" rel="noopener noreferrer" target="_blank">GitHub Page </a> */}
-          {/* <a href="https://www.linkedin.com/in/ryan-grosser-a360a1129/" rel="noopener noreferrer" target="_blank">LinkedIn Page</a> */}
         </NavBarStyle>
       </div>
     );
