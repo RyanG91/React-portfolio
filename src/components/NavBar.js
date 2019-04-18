@@ -3,27 +3,22 @@ import { NavBarStyle } from'../styles/NavBarStyles'
 
 function Links(props) {
   return (
-    <div>
-      <a target="_self" href={props.link}>
+      <a id={props.id} target="_self" href={props.link}>
         <p>{props.title}</p>
-      </a>      
-    </div>
+      </a>
   )
 }
 
 class NavBar extends Component {
-
-
-
   render() {
     return (
       <div className="NavBar">
         <NavBarStyle>
-          <Links title="Home" link="/" />
-          <Links title="About Me" link="#aboutme" />
-          <Links title="Projects" link="#myprojects" />
-          <Links title="Contact Me" link="#contact" />
-          <Links title="GitHub Page" link="https://github.com/RyanG91" />
+          <Links id='tablecolumn' title="Home" link="/" />
+          <Links id='tablecolumn' title="About Me" link="#aboutme" />
+          <Links id='tablecolumn' title="Projects" link="#myprojects" />
+          <Links id='tablecolumn' title="Contact Me" link="#contact" />
+          <Links id='tablecolumn' title="GitHub Page" link="https://github.com/RyanG91" />
           <Links title="LinkedIn Page" link="https://www.linkedin.com/in/ryan-grosser-a360a1129/" />
         </NavBarStyle>
       </div>
